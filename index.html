@@ -1,0 +1,359 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link href="dist/css/output.css" rel="stylesheet">
+</head>
+
+<body>
+	<nav class="absolute right-0 left-0 text-white z-10">
+		<div class="w-9/12 mx-auto py-5 flex justify-between items-center font-comf">
+			<div>
+				<a href="#" class="text-lg">Tail Listing</a>
+			</div>
+			<div>
+				<button
+					class="transition-all py-2 px-4 rounded-md border border-amber-500 bg-transparent hover:bg-amber-500 text-amber-500 hover:text-white">
+					add Listing
+				</button>
+			</div>
+			<div class="space-x-4">
+				<button class="text-lg">Sign In</button>
+				<button class="text-lg">Sign Up</button>
+			</div>
+		</div>
+	</nav>
+	<div class="relative h-screen">
+		<img src="./src/assets/images/hero/hero_4.jpg" alt="" class="h-full w-full object-cover">
+		<div class="absolute inset-0 bg-black/50"></div>
+		<div class="absolute inset-0 w-full h-full">
+			<div class="flex items-center justify-center min-h-full w-full">
+				<div class="space-y-6">
+					<div class="text-white text-center">
+						<p class="text-4xl capitalize font-bold font-comf mb-4">Descubre lugares que las personas amen
+						</p>
+						<p class="text-lg">Nosotros te ayudaremos a encontrar los mejores lugares del mundo</p>
+					</div>
+					<div class="flex gap-5">
+						<div>
+							<input type="text" name="" id="" placeholder="Locación"
+								class="rounded-md w-80 bg-white text-gray-600 py-3 px-4 focus:outline-none">
+						</div>
+						<div>
+							<input type="text" name="" id="" placeholder="Estoy buscando..."
+								class="rounded-md w-80 bg-white text-gray-600 py-3 px-4 focus:outline-none">
+						</div>
+						<div>
+							<button class="rounded-md py-2.5 px-6 bg-amber-500 text-lg text-white hover:bg-amber-600">
+								<span class="material-icons align-middle hidden md:inline-flex">
+									search
+								</span>Buscar
+							</button>
+						</div>
+					</div>
+					<div>
+						<ul class="flex gap-5 justify-center text-white text-sm">
+							<li class="capitalize">
+								<a href="#" class="hover:text-amber-600">
+									<span class="material-icons align-middle hidden md:inline-flex">
+										restaurant
+									</span>
+									Restaurantes
+								</a>
+							</li>
+							<li class="capitalize">
+								<a href="#" class="hover:text-amber-600">
+									<span class="material-icons align-middle hidden md:inline-flex">
+										school
+									</span> Escuelas
+								</a>
+							</li>
+							<li class="capitalize">
+								<a href="#" class="hover:text-amber-600">
+									<span class="material-icons align-middle hidden md:inline-flex">
+										local_cafe
+									</span> Café
+								</a>
+							</li>
+							<li class="capitalize">
+								<a href="#" class="hover:text-amber-600">
+									<span class="material-icons align-middle hidden md:inline-flex">
+										park
+									</span> Parques
+								</a>
+							</li>
+							<li class="capitalize">
+								<a href="#" class="hover:text-amber-600">
+									<span class="material-icons align-middle hidden md:inline-flex">
+										attractions
+									</span> Atracciones
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+	<div>
+		<div class="py-32 bg-gray-50">
+			<div class="w-9/12 mx-auto">
+				<div class="text-center mb-12">
+					<p class="text-4xl font-bold text-gray-600 mb-3">Lugares populares</p>
+					<p class="text-gray-600">Descubre los lugares más buscados</p>
+				</div>
+				<div>
+					<div class="grid grid-cols-3 gap-6 mx-auto">
+						<div class="rounded-md bg-white shadow max-w-xl overflow-hidden">
+							<div  class="overflow-hidden h-48">
+								<img src="./src/assets/images/skynews-dentist-generic_5393494.jpg" class="w-full h-48 object-cover" alt=""
+									srcset="">
+							</div>
+							<div class="px-6 py-4 space-y-2">
+								<div class="flex text-sm items-center">
+									<span class="material-icons text-amber-400">grade</span>
+									<span class="material-icons text-amber-400">grade</span>
+									<span class="material-icons text-amber-400">grade</span>
+									<span class="material-icons text-amber-400">grade</span>
+									<span class="material-icons text-amber-400">star_half</span>
+									<span class="ml-2 text-xs text-gray-600">294 review</span>
+								</div>
+								<p class="text-lg font-bold text-gray-600">Odontosalud</p>
+								<p class="text-sm text-gray-600 flex items-center">
+									<span class="material-icons align-middle text-gray-400 -ml-1">place</span>
+									C.C. Lord Center
+								</p>
+								<div>
+									<span
+										class="text-xs px-2 py-0.5 bg-amber-100 border-amber-200 text-amber-700 rounded-full">
+										Odontología
+									</span>
+								</div>
+							</div>
+						</div>
+						<div class="rounded-md bg-white shadow max-w-xl overflow-hidden">
+							<div class="overflow-hidden h-48">
+								<img src="./src/assets/images/res-pic (1).jpeg" class="w-full h-48 object-cover" alt="" srcset="">
+							</div>
+							<div class="px-6 py-4 space-y-2">
+								<div class="flex text-sm items-center">
+									<span class="material-icons text-amber-400">grade</span>
+									<span class="material-icons text-amber-400">grade</span>
+									<span class="material-icons text-amber-400">grade</span>
+									<span class="material-icons text-amber-400">grade</span>
+									<span class="material-icons text-amber-400">star_half</span>
+									<span class="ml-2 text-xs text-gray-600">294 review</span>
+								</div>
+								<p class="text-lg font-bold text-gray-600">Odontosalud</p>
+								<p class="text-sm text-gray-600 flex items-center">
+									<span class="material-icons align-middle text-gray-400 -ml-1">place</span>
+									C.C. Lord Center
+								</p>
+								<div>
+									<span
+										class="text-xs px-2 py-0.5 bg-amber-100 border-amber-200 text-amber-700 rounded-full">
+										Odontología
+									</span>
+								</div>
+							</div>
+						</div>
+						<div class="rounded-md bg-white shadow max-w-xl overflow-hidden">
+							<div class="overflow-hidden h-48">
+								<img src="./src/assets/images/res-pic (1).jpg" class="w-full h-48 object-cover" alt="" srcset="">
+							</div>
+							<div class="px-6 py-4 space-y-2">
+								<div class="flex text-sm items-center">
+									<span class="material-icons text-amber-400">grade</span>
+									<span class="material-icons text-amber-400">grade</span>
+									<span class="material-icons text-amber-400">grade</span>
+									<span class="material-icons text-amber-400">grade</span>
+									<span class="material-icons text-amber-400">star_half</span>
+									<span class="ml-2 text-xs text-gray-600">294 review</span>
+								</div>
+								<p class="text-lg font-bold text-gray-600">Odontosalud</p>
+								<p class="text-sm text-gray-600 flex items-center">
+									<span class="material-icons align-middle text-gray-400 -ml-1">place</span>
+									C.C. Lord Center
+								</p>
+								<div>
+									<span
+										class="text-xs px-2 py-0.5 bg-amber-100 border-amber-200 text-amber-700 rounded-full">
+										Odontología
+									</span>
+								</div>
+							</div>
+						</div>
+						<div class="rounded-md bg-white shadow max-w-xl overflow-hidden">
+							<div class="overflow-hidden h-48">
+								<img src="./src/assets/images/res-pic (2).jpg" class="w-full h-48 object-cover" alt="" srcset="">
+							</div>
+							<div class="px-6 py-4 space-y-2 relative">
+								<div class="flex text-sm items-center">
+									<span class="material-icons text-amber-400">grade</span>
+									<span class="material-icons text-amber-400">grade</span>
+									<span class="material-icons text-amber-400">grade</span>
+									<span class="material-icons text-amber-400">grade</span>
+									<span class="material-icons text-amber-400">star_half</span>
+									<span class="ml-2 text-xs text-gray-600">294 review</span>
+								</div>
+								<p class="text-lg font-bold text-gray-600">Odontosalud</p>
+								<p class="text-sm text-gray-600 flex items-center">
+									<span class="material-icons align-middle text-gray-400 -ml-1">place</span>
+									C.C. Lord Center
+								</p>
+								<div>
+									<span
+										class="text-xs px-2 py-0.5 bg-amber-100 border-amber-200 text-amber-700 rounded-full">
+										Odontología
+									</span>
+								</div>
+								<div class="absolute right-3 bottom-3">
+									<span class="material-icons text-red-700">local_fire_department</span>
+								</div>
+							</div>
+						</div>
+						<div class="rounded-md bg-white shadow max-w-xl overflow-hidden">
+							<div class="overflow-hidden h-48">
+								<img src="./src/assets/images/res-pic (3).jpg" class="w-full h-48 object-cover" alt="" srcset="">
+							</div>
+							<div class="px-6 py-4 space-y-2">
+								<div class="flex text-sm items-center">
+									<span class="material-icons text-amber-400">grade</span>
+									<span class="material-icons text-amber-400">grade</span>
+									<span class="material-icons text-amber-400">grade</span>
+									<span class="material-icons text-amber-400">grade</span>
+									<span class="material-icons text-amber-400">star_half</span>
+									<span class="ml-2 text-xs text-gray-600">294 review</span>
+								</div>
+								<p class="text-lg font-bold text-gray-600">Odontosalud</p>
+								<p class="text-sm text-gray-600 flex items-center">
+									<span class="material-icons align-middle text-gray-400 -ml-1">place</span>
+									C.C. Lord Center
+								</p>
+								<div>
+									<span
+										class="text-xs px-2 py-0.5 bg-amber-100 border-amber-200 text-amber-700 rounded-full">
+										Odontología
+									</span>
+								</div>
+							</div>
+						</div>
+						<div class="rounded-md bg-white shadow max-w-xl overflow-hidden">
+							<div class="overflow-hidden h-48">
+								<img src="./src/assets/images/res-pic (4).jpg" class="w-full h-48 object-cover" alt="" srcset="">
+							</div>
+							<div class="px-6 py-4 space-y-2">
+								<div class="flex text-sm items-center">
+									<span class="material-icons text-amber-400">grade</span>
+									<span class="material-icons text-amber-400">grade</span>
+									<span class="material-icons text-amber-400">grade</span>
+									<span class="material-icons text-amber-400">grade</span>
+									<span class="material-icons text-amber-400">star_half</span>
+									<span class="ml-2 text-xs text-gray-600">294 review</span>
+								</div>
+								<p class="text-lg font-bold text-gray-600">Odontosalud</p>
+								<p class="text-sm text-gray-600 flex items-center">
+									<span class="material-icons align-middle text-gray-400 -ml-1">place</span>
+									C.C. Lord Center
+								</p>
+								<div>
+									<span
+										class="text-xs px-2 py-0.5 bg-amber-100 border-amber-200 text-amber-700 rounded-full">
+										Odontología
+									</span>
+								</div>
+							</div>
+						</div>
+						<div class="rounded-md bg-white shadow max-w-xl overflow-hidden">
+							<div class="overflow-hidden h-48">
+								<img src="./src/assets/images/res-pic (5).jpg" class="w-full h-48 object-cover" alt="" srcset="">
+							</div>
+							<div class="px-6 py-4 space-y-2">
+								<div class="flex text-sm items-center">
+									<span class="material-icons text-amber-400">grade</span>
+									<span class="material-icons text-amber-400">grade</span>
+									<span class="material-icons text-amber-400">grade</span>
+									<span class="material-icons text-amber-400">grade</span>
+									<span class="material-icons text-amber-400">star_half</span>
+									<span class="ml-2 text-xs text-gray-600">294 review</span>
+								</div>
+								<p class="text-lg font-bold text-gray-600">Odontosalud</p>
+								<p class="text-sm text-gray-600 flex items-center">
+									<span class="material-icons align-middle text-gray-400 -ml-1">place</span>
+									C.C. Lord Center
+								</p>
+								<div>
+									<span
+										class="text-xs px-2 py-0.5 bg-amber-100 border-amber-200 text-amber-700 rounded-full">
+										Odontología
+									</span>
+								</div>
+							</div>
+						</div>
+						<div class="rounded-md bg-white shadow max-w-xl overflow-hidden">
+							<div class="overflow-hidden h-48">
+								<img src="./src/assets/images/res-pic (6).jpg" class="w-full h-48 object-cover" alt="" srcset="">
+							</div>
+							<div class="px-6 py-4 space-y-2">
+								<div class="flex text-sm items-center">
+									<span class="material-icons text-amber-400">grade</span>
+									<span class="material-icons text-amber-400">grade</span>
+									<span class="material-icons text-amber-400">grade</span>
+									<span class="material-icons text-amber-400">grade</span>
+									<span class="material-icons text-amber-400">star_half</span>
+									<span class="ml-2 text-xs text-gray-600">294 review</span>
+								</div>
+								<p class="text-lg font-bold text-gray-600">Odontosalud</p>
+								<p class="text-sm text-gray-600 flex items-center">
+									<span class="material-icons align-middle text-gray-400 -ml-1">place</span>
+									C.C. Lord Center
+								</p>
+								<div>
+									<span
+										class="text-xs px-2 py-0.5 bg-amber-100 border-amber-200 text-amber-700 rounded-full">
+										Odontología
+									</span>
+								</div>
+							</div>
+						</div>
+						<div class="rounded-md bg-white shadow max-w-xl overflow-hidden">
+							<div class="overflow-hidden h-48">
+								<img src="./src/assets/images/res-pic (7).jpg" class="w-full h-48 object-cover" alt="" srcset="">
+							</div>
+							<div class="px-6 py-4 space-y-2">
+								<div class="flex text-sm items-center">
+									<span class="material-icons text-amber-400">grade</span>
+									<span class="material-icons text-amber-400">grade</span>
+									<span class="material-icons text-amber-400">grade</span>
+									<span class="material-icons text-amber-400">grade</span>
+									<span class="material-icons text-amber-400">star_half</span>
+									<span class="ml-2 text-xs text-gray-600">294 review</span>
+								</div>
+								<p class="text-lg font-bold text-gray-600">Odontosalud</p>
+								<p class="text-sm text-gray-600 flex items-center">
+									<span class="material-icons align-middle text-gray-400 -ml-1">place</span>
+									C.C. Lord Center
+								</p>
+								<div>
+									<span
+										class="text-xs px-2 py-0.5 bg-amber-100 border-amber-200 text-amber-700 rounded-full">
+										Odontología
+									</span>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="text-center mt-12">
+						<button class="shadow py-2.5 px-6 text-lg hover:shadow-lg rounded-md">🚀 Descubre más</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>
