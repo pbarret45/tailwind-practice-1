@@ -17,5 +17,5 @@ npx tailwindcss init
 ```
 ## Scan the css
 ```
-npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch
+npx tailwindcss -i ./src/css/input.css -o ./dist/css/output.css --watch
 ```
